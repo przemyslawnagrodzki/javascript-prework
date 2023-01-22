@@ -3,6 +3,9 @@ function printMessage(msg){
 	div.innerHTML = msg;
 	document.getElementById('messages').appendChild(div);
 }
+function clearMessages(){
+	document.getElementById('messages').innerHTML = '';
+}
 var argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest, x;
 
 /**
