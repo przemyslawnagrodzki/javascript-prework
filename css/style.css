@@ -5,10 +5,14 @@ body {
 
 h1 {
   font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
   font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -16,4 +20,9 @@ button {
   color: azure;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHFCQUFBO0VBQ0EsZ0JBQUE7QUNDSjs7QURDQTtFQUNJLGVBQUE7QUNFSjs7QURBQTtFQUNJLGVBQUE7QUNHSjs7QUREQTtFQUNJLHVCQUFBO0VBQ0EsWUFBQTtBQ0lKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+.but {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHFCQUFBO0VBQ0EsZ0JBQUE7QUNDSjs7QURDQTtFQUNJLGVBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7QUNFSjs7QURBQTtFQUNJLGVBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7QUNHSjs7QUREQTtFQUNJLHVCQUFBO0VBQ0EsWUFBQTtBQ0lKOztBREZBO0VBQ0ksYUFBQTtFQUNBLHVCQUFBO0FDS0oiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

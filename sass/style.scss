@@ -4,17 +4,19 @@ body {
 }
 h1 {
     font-size: 30px;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 h2 {
     font-size: 20px;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 button {
     background-color: black;
     color: azure;
-    display:flex;
-    justify-content: space-around;
+}
+.but {
+    display: flex;
+    justify-content: center;
 }
