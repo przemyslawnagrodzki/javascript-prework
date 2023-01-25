@@ -8,13 +8,13 @@ function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
 
-var buttonPaper, buttonRock, buttonScissors;
+let buttonPaper, buttonRock, buttonScissors;
 
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-  var computerMove, playerMove, randomNumber;
+  let computerMove, playerMove, randomNumber;
 
   function getMoveName(argMoveId) {
     console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
